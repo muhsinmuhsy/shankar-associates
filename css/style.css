@@ -1280,7 +1280,7 @@ header.header-mobile {
     text-align: center;
     border: 1px solid #c6c6c6;
     cursor: pointer;
-    margin: 20px 0;
+    margin: 25px 0;
     border-radius: 50%;
 }
 
@@ -1313,7 +1313,7 @@ header.header-mobile {
 
 nav.menu-mobile {
     position: absolute;
-    top: 77px;
+    top: 85px;
     left: 0;
     float: left;
     z-index: 50000;
@@ -3078,6 +3078,12 @@ a.sbold {
 
 .we-are {
     padding: 70px 0;
+}
+@media(max-width: 768px) {
+    .we-are {
+        padding: 30px 0;
+    }
+    
 }
 
 .we-are__right>h2 {
@@ -5660,7 +5666,7 @@ input:focus {
 /*Blog Grid*/
 
 .blog1 {
-    padding-top: 65px;
+    padding-top: 40px;
     padding-bottom: 100px;
 }
 
@@ -6958,7 +6964,7 @@ input[type=number] {
     }
 
     h2.title--small {
-        font-size: 26px;
+        font-size: 20px;
     }
 
     .title-3 {
