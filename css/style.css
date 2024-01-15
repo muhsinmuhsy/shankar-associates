@@ -735,6 +735,12 @@ a.au-btn--white {
     z-index: 1000;
     border-radius: 50%;
 }
+@media(max-width: 768px) {
+    
+    #btn-to-top {
+        right: 20px;
+    }
+}
 
 #btn-to-top:hover {
     background-color: #333;
